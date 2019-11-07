@@ -1,8 +1,8 @@
 # Mobile Game Apps
-I made two Android game apps using Unity called Galaga and Chinese Puzzle. Galaga is based on the classic arcade game and it was my first game I built using Unity. However Chinese Puzzle is a game I created and built from scratch. The game took three months to build and came with all sorts of challenges.
+I made two Android game apps using Unity called Galaga and Chinese Puzzle. Galaga is based on the classic arcade game and it was my first game I built using Unity. However Chinese Puzzle is a game I created and built from scratch. The game took three months to build and came with all sorts of challenges. Both games are published on Google Play Store. Links are at the bottom of page.
 
 ## Galaga
-![Screenshot_20191107-121905_Galaga](https://user-images.githubusercontent.com/13184429/68429243-8ea7b600-0162-11ea-90d9-047462451401.jpg)
+![Screenshot_20191107-121905_Galaga](https://user-images.githubusercontent.com/13184429/68429660-5e144c00-0163-11ea-8508-4605d5648041.jpg)
 ![Screenshot_20191107-121730_Galaga](https://user-images.githubusercontent.com/13184429/68429241-8e0f1f80-0162-11ea-8912-a628fc6991a2.jpg)
 ![Screenshot_20191107-121801_Galaga](https://user-images.githubusercontent.com/13184429/68429248-8f404c80-0162-11ea-871f-dd952b98fafa.jpg)
 ![Screenshot_20191107-121809_Galaga](https://user-images.githubusercontent.com/13184429/68429245-8ea7b600-0162-11ea-9c33-9da58f587921.jpg)
