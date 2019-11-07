@@ -4,14 +4,14 @@ using System.Collections;
 public class Laser : MonoBehaviour 
 {
 	 
-public float speed = 20;	
+public float speed;	
 
-void Update () 
+void Update ()   
 {
 	transform.Translate(new Vector3(0f,speed *Time.deltaTime,0f));
 	
-	if(transform.position.y >6)
-		Destroy(gameObject);
+	if(transform.position.y > 10.6)
+		Destroy(gameObject);     
 }
 
 } 

@@ -11,9 +11,10 @@ void Update ()
 	//Space.World finds what direction down is after axis is rotated 
 	transform.Translate (Vector3.down * amountToMove, Space.World);
 	
-	if(transform.position.y <= -9.946022)
-	{
-		transform.position = new Vector3(transform.position.x, 11.26f, transform.position.z);
+	if(transform.position.y <= -19.04)     
+	{ 
+		transform.position = new Vector3(transform.position.x, 18.9f, transform.position.z); 
 	}
+}    
 }
-}
+  

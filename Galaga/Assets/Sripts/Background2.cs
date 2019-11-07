@@ -10,9 +10,9 @@ void Update ()
 	float amountToMove = speed * Time.deltaTime;
 	transform.Translate (Vector3.down * amountToMove, Space.World);
 
-	if(transform.position.y <= -9.946022)
+	if(transform.position.y <= -17.04)
 	{
-		transform.position = new Vector3(transform.position.x, 11.26f, transform.position.z);
+		transform.position = new Vector3(transform.position.x, 20.8f, transform.position.z);
 	}
-}
-} 
+}  
+}  

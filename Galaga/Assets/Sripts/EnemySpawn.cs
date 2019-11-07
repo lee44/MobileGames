@@ -6,9 +6,9 @@ public class EnemySpawn : MonoBehaviour
 public int speed;
 bool right = true;
 public Transform enemy;
-float nextSpawn = 1, lastSpawn;
+float nextSpawn = 1.3f, lastSpawn;
 GameManager manager;
-public static bool isOn = true;
+public bool isOn = false;
 public static bool spawn;
 public Transform boss; 
 bool Boss_Spawn;
@@ -17,18 +17,19 @@ void Start()
 {
 	//gets a reference to GameManager Script or GameManager class
 	//manager = GetComponent<GameManager>();
+	
 }
 void Update () 
-{
-
-if(isOn && spawn)
 { 
-	if(right && transform.position.x < 5.24f)
+
+if(spawn)
+{
+	if(right && transform.position.x < 4.7f)
 		transform.Translate(new Vector3(speed * Time.deltaTime,0f,0f));	
 	else
-		right = false;
+		right = false;   
 
-	if(!right && transform.position.x > -5.24f)
+	if(!right && transform.position.x > -4.7f)
 		transform.Translate(new Vector3(-speed * Time.deltaTime,0f,0f));
 	else
 		right = true; 
@@ -40,8 +41,7 @@ if(isOn && spawn)
 		GameManager.instance.TotalShips++;
 	} 
  
-}
-
+} 
 if(GameManager.instance.level == 3 && !Boss_Spawn)
 {
 	spawn = false;

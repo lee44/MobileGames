@@ -60,6 +60,8 @@ var waypoints : Transform[];
 //This variable keeps track of which Waypoint Object, in the previously mentioned array variable "waypoints", is currently active.
 private var WPindexPointer : int;
 
+static var start = false;
+
 function Start ()
 {
    functionState = 0; //When the script starts set "0" or function Accell() to be active.    
@@ -67,6 +69,7 @@ function Start ()
 
 function Update ()
 {
+   if(start)
    Accell ();
    /*
    if (functionState == 0) //If functionState variable is currently "0" then run "Accell()". Withouth the "if", "Accell()" would run every frame.
@@ -125,16 +128,13 @@ function OnTriggerEnter (other : Collider)
    WPindexPointer++;  //When the GameObject collides with the waypoint's collider, change the active waypoint to the next one in the array variable "waypoints".
    }
    
-   if (WPindexPointer == 3)
-   {
-   	   transform.position = Vector3(.1499,6,-2.8);
-   }
+   
    
    //When the array variable reaches the end of the list ...
    if (WPindexPointer >= waypoints.Length)
    {
       WPindexPointer = 0; // ... reset the active waypoint to the first object in the array variable "waypoints" and start from the beginning.
-      transform.position = Vector3(.1499,6,-2.8);
+      transform.position = Vector3(-0.2833158,12.90102,-2.8);
    }
 }
   

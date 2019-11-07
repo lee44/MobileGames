@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{549B5425-F121-6640-E7A9-11F164C5F8EC}</ProjectGuid>
+	<ProjectGuid>{FA5E8661-76C9-16B5-2D0E-D283F550A0DA}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,7 +49,7 @@
      <Compile Include="Assets\codeandweb.com\Editor\TexturePackerImporter.cs" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Lee/Desktop/Unity/Galaga/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Lee/Desktop/Unity/Galaga-Android/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{12D7A22F-1A41-EEB1-EB2A-DE689ED20F21}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{FC346547-DD1F-7C6B-996C-117F86F2A39D}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

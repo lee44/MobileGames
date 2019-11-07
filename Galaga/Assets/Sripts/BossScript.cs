@@ -32,11 +32,11 @@ void Update ()
 				AudioSource.PlayClipAtPoint(clip,transform.position);
 			}
 			
-			if(right && transform.position.x < 3.802621f)
+			if(right && transform.position.x < 3.6f) 
 				transform.Translate(new Vector3(-speed * Time.deltaTime,0f,0f));	
 			else
 				right = false;
-			if(!right && transform.position.x > -3.802621f)
+			if(!right && transform.position.x > -3.62f)
 				transform.Translate(new Vector3(speed * Time.deltaTime,0f,0f));
 			else
 				right = true;
@@ -55,8 +55,6 @@ void Update ()
 			if(GetComponent<Renderer>().material.mainTextureOffset.y < .6412 && health >= 50) 
 			{
 				GetComponent<Renderer>().material.mainTextureOffset = new Vector2(0, .97436f);
-					
-				
 			}
 				
 			if(health < 50 && exploded)

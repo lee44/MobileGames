@@ -31,7 +31,7 @@ void Update ()
 	}
 	
 	transform.Translate(new Vector3(0, speed * Time.deltaTime,0));
-	if(transform.position.y < -4.7)
+	if(transform.position.y < -10)
 		Destroy(gameObject); 
 	
 }
@@ -52,9 +52,7 @@ void OnTriggerEnter(Collider other)
 	else if(Enemy.sh && other.tag == "Player")
 	{
 		Enemy.sh = false;
-		GameManager.instance.player.GetComponent<Renderer>().material.mainTextureOffset = new Vector2(0,0);
-		GameManager.instance.player.GetComponent<Renderer>().material.mainTextureScale = new Vector3(.4f,.4f);
-		GameManager.instance.player.transform.localScale = new Vector3(.6534f,.6534f,.6534f);
+		GameManager.instance.player.GetComponent<Renderer>().material.mainTextureOffset = new Vector2(0,.5f);
 		Destroy(gameObject); 
 	}
 }
