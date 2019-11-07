@@ -6,5 +6,5 @@ I made two Android game apps using Unity called Galaga and Chinese Puzzle. Galag
 ## Chinese Puzzle
 
 ## Download
-Galaga - https://play.google.com/store/apps/details?id=com.Lee.AlienShipDestroyer
-Chinese Puzzle - https://play.google.com/store/apps/details?id=com.Lee.ChinesePuzzleUnity
+* Galaga - https://play.google.com/store/apps/details?id=com.Lee.AlienShipDestroyer
+* Chinese Puzzle - https://play.google.com/store/apps/details?id=com.Lee.ChinesePuzzleUnity
