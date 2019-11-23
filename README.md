@@ -7,6 +7,8 @@ I made two Android game apps using Unity called Galaga and Chinese Puzzle. Galag
 ![Screenshot_20191107-121801_Galaga](https://user-images.githubusercontent.com/13184429/68429248-8f404c80-0162-11ea-871f-dd952b98fafa.jpg)
 ![Screenshot_20191107-121809_Galaga](https://user-images.githubusercontent.com/13184429/68429245-8ea7b600-0162-11ea-9c33-9da58f587921.jpg)
 ![Screenshot_20191107-121817_Galaga](https://user-images.githubusercontent.com/13184429/68429247-8f404c80-0162-11ea-9316-d35c2779f69d.jpg)
+## How to Play
+Just like the original Galaga game, the goal is to outmaneuver and kill as many enemy ships and defeat the final boss.
 
 ## Chinese Puzzle
 ![Screenshot_20191107-121233_Chinese Puzzle](https://user-images.githubusercontent.com/13184429/68429152-69b34300-0162-11ea-92d6-a28fc14b4e5f.jpg)
