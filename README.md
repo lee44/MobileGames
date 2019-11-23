@@ -14,6 +14,8 @@ I made two Android game apps using Unity called Galaga and Chinese Puzzle. Galag
 ![Screenshot_20191107-121417_Chinese Puzzle](https://user-images.githubusercontent.com/13184429/68429147-691aac80-0162-11ea-9847-3f95edb0ca52.jpg)
 ![Screenshot_20191107-121434_Chinese Puzzle](https://user-images.githubusercontent.com/13184429/68429148-691aac80-0162-11ea-9e9a-f23cd33c4559.jpg)
 ![Screenshot_20191107-121523_Chinese Puzzle](https://user-images.githubusercontent.com/13184429/68429149-691aac80-0162-11ea-90cb-7bb494fded11.jpg)
+## How to Play
+The goal of the game to rearrange the tiles into the correct position. There are two modes: Hardcore and Normal. Hardcore involves sliding the tiles while Normal involves selecting two tiles to swap their positions.
 
 ## Build With
 * Unity(Game Engine)
